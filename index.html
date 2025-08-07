@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Produtos</h1>
+    </header>
+
+    <div class="container">
+        <h2>Adicionar Novo Produto</h2>
+        <input type="text" id="nome" placeholder="Nome produto">
+        <input type="text" id="marca" placeholder="Marca">
+        <input type="number" id="preco" placeholder="Preço">
+        <input type="text" id="foto" placeholder="URL da imagem">
+        <textarea id="descricao" placeholder="Descrição do Produto"></textarea>
+        <button onclick="adicionarProduto()">Cadastar Produto</button>
+
+        <h2>Produtos Cadastrados</h2>
+        <div id="lista-produtos"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
