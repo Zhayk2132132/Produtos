@@ -11,4 +11,19 @@ const produto = {nome, marca, preco, foto, descricao};
 
 produtos.push(produto);
 
+mostrarProdutos();
+
+    document.getElementById('nome').value = "";
+    document.getElementById('marca').value = "";
+    document.getElementById('preco').value = "";
+    document.getElementById('foto').value = "";
+    document.getElementById('descricao').value = "";
+
 }
+mostrarProdutos();
+
+    document.getElementById('nome').value = "";
+    document.getElementById('marca').value = "";
+    document.getElementById('preco').value = "";
+    document.getElementById('foto').value = "";
+    document.getElementById('descricao').value = "";
